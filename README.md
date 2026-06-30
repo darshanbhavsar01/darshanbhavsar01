@@ -25,6 +25,37 @@ I'm an **AI/MLOps Developer at Intuitive.AI**, focused on taking GenAI and ML sy
 
 ---
 
+### Professional Highlights
+
+Selected production work at Intuitive.AI (client systems, not public repos):
+
+- **ADK Agent — Code Comprehension Accelerator.** Hybrid AI system using Gemini 2.5 Flash to analyze software repositories, synthesizing intelligence across ChromaDB (vector), Neo4j (knowledge graph), GraphDB (RDF ontology), and PostgreSQL. Built a FastAPI REST layer with session management that translates natural-language questions into SQL, Cypher, and SPARQL with project-based filtering.
+- **OCR & Search at Scale.** Transformed 38,000+ legacy inspection reports (1990–2015) from scanned PDFs into a searchable data asset, cutting review time from hours/days to minutes. Designed a two-phase pipeline (PDF to Markdown to JSON) on Cloud Run, BigQuery, and Pub/Sub with AI-powered semantic validation to separate true findings from negated statements.
+- **RAG Search for Legal Documents.** Built a RAG-based search application over 350,000+ agreements using Vertex AI Search and Gemini OCR models, with a fully automated ingestion pipeline (TIF to PDF, OCR, metadata parsing, JSONL indexing) orchestrated via Cloud Scheduler, Pub/Sub, and Cloud Run.
+- **GCP Contact Centre AI.** Architected an end-to-end virtual contact-centre analytics pipeline: Speech-to-Text, PII redaction with Cloud DLP, and CCAI Insights, with an event-driven design (Cloud Functions, Pub/Sub, Cloud Scheduler) for near-real-time ingestion and generative summarization.
+
+---
+
+### Featured Projects
+
+**[TRAVIS — Traffic Risk and Advisory Intelligence System](https://github.com/darshanbhavsar01/TRAVIS-Traffic-Risk-and-Advisory-Intelligence-System)**
+End-to-end ML system that predicts event-driven traffic congestion in Bangalore. LightGBM models (road-closure classifier, priority classifier, resolution-time regressor), a composite impact-score formula, SHAP explainability, and a Streamlit demo with Folium maps and a rule-based resource engine.
+`Python` `LightGBM` `SHAP` `Streamlit` `Folium`
+
+**Food Demand Forecasting and Inventory Management** <!-- TODO: add repo link -->
+Web app using a supervised ML model to forecast order volume for upcoming weeks, plus an inventory-management portal for fulfillment-center owners.
+`ML` `Django` `SQL`
+
+**IPL Score Predictor and Dashboard** <!-- TODO: add repo link -->
+Web app that predicts live IPL match scores with an ML model, alongside a statistical dashboard of historical records.
+`ML` `Django` `Chart.js` `JavaScript`
+
+**News Article Summarization** <!-- TODO: add repo link -->
+Abstractive and extractive summarization pipeline with NLP preprocessing and an LSTM model.
+`NLP` `Deep Learning` `Django`
+
+---
+
 ### Tech Stack
 
 **Languages**
@@ -72,37 +103,6 @@ I'm an **AI/MLOps Developer at Intuitive.AI**, focused on taking GenAI and ML sy
   <img src="https://img.shields.io/badge/Django-092E20?style=flat-square&logo=django&logoColor=white"/>
   <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white"/>
 </p>
-
----
-
-### Professional Highlights
-
-Selected production work at Intuitive.AI (client systems, not public repos):
-
-- **ADK Agent — Code Comprehension Accelerator.** Hybrid AI system using Gemini 2.5 Flash to analyze software repositories, synthesizing intelligence across ChromaDB (vector), Neo4j (knowledge graph), GraphDB (RDF ontology), and PostgreSQL. Built a FastAPI REST layer with session management that translates natural-language questions into SQL, Cypher, and SPARQL with project-based filtering.
-- **OCR & Search at Scale.** Transformed 38,000+ legacy inspection reports (1990–2015) from scanned PDFs into a searchable data asset, cutting review time from hours/days to minutes. Designed a two-phase pipeline (PDF to Markdown to JSON) on Cloud Run, BigQuery, and Pub/Sub with AI-powered semantic validation to separate true findings from negated statements.
-- **RAG Search for Legal Documents.** Built a RAG-based search application over 350,000+ agreements using Vertex AI Search and Gemini OCR models, with a fully automated ingestion pipeline (TIF to PDF, OCR, metadata parsing, JSONL indexing) orchestrated via Cloud Scheduler, Pub/Sub, and Cloud Run.
-- **GCP Contact Centre AI.** Architected an end-to-end virtual contact-centre analytics pipeline: Speech-to-Text, PII redaction with Cloud DLP, and CCAI Insights, with an event-driven design (Cloud Functions, Pub/Sub, Cloud Scheduler) for near-real-time ingestion and generative summarization.
-
----
-
-### Featured Projects
-
-**[TRAVIS — Traffic Risk and Advisory Intelligence System](https://github.com/darshanbhavsar01/TRAVIS-Traffic-Risk-and-Advisory-Intelligence-System)**
-End-to-end ML system that predicts event-driven traffic congestion in Bangalore. LightGBM models (road-closure classifier, priority classifier, resolution-time regressor), a composite impact-score formula, SHAP explainability, and a Streamlit demo with Folium maps and a rule-based resource engine.
-`Python` `LightGBM` `SHAP` `Streamlit` `Folium`
-
-**Food Demand Forecasting and Inventory Management** <!-- TODO: add repo link -->
-Web app using a supervised ML model to forecast order volume for upcoming weeks, plus an inventory-management portal for fulfillment-center owners.
-`ML` `Django` `SQL`
-
-**IPL Score Predictor and Dashboard** <!-- TODO: add repo link -->
-Web app that predicts live IPL match scores with an ML model, alongside a statistical dashboard of historical records.
-`ML` `Django` `Chart.js` `JavaScript`
-
-**News Article Summarization** <!-- TODO: add repo link -->
-Abstractive and extractive summarization pipeline with NLP preprocessing and an LSTM model.
-`NLP` `Deep Learning` `Django`
 
 ---
 
