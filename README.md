@@ -6,7 +6,7 @@
 
 <p align="center">
   <a href="https://www.linkedin.com/in/darshan01/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
-  <a href="mailto:darshan.bhavsar@intuitive.ai"><img src="https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white" alt="Email"/></a>
+  <a href="mailto:darshanbhavsar4.db@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white" alt="Email"/></a>
   <a href="https://github.com/darshanbhavsar01"><img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub"/></a>
   <img src="https://img.shields.io/badge/Location-Gujarat,%20India-2ea44f?style=flat-square" alt="Location"/>
 </p>
